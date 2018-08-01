@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- About me -->
+        <h1>Aneela Ehsan</h1>
+    </head>
+
+    <body>
+      <em> About Me: </em>
+
+
+	<p> Hi! I’m Aneela and I’m a sixteen year old girl from Massachusetts. I love to travel and have been vacationing to Europe for the last 5 years, but I plan on traveling the whole world someday! When I’m at home (and not doing homework), I love to watch movies, read, and cook.</p>
+    </body>
+
+    <a href "https://handluggageonly.co.uk/"> Check out this travel blog!</a>
+
+  <!--<p> <img src="https://i0.wp.com/mindfulmermaid.com/wp-content/uploads/2018/04/37431203542_39dd91053f_o-1.jpg?resize=1080%2C675&ssl=1" class="center"> </p>
+  <div> Picture taken in Wengen, Switzerland </div> -->
+
+    <style>
+
+h1 {
+  text-align: center;
+  line-height: 125px;
+}
+
+body {
+  background-color: lightpink;
+  text-align: center;
+}
+
+p {
+  font-family: "Century Gothic", sans-serif;
+  text-align: center;
+  text-indent: 150px;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+}
+
+img {
+  height:400px;
+  width: 800px;
+}
+
+ h1 {
+   background-image:url(https://www.artsybeedigital.com/uploads/3/7/9/4/37948779/1323338_orig.jpg) ;
+   background-repeat: no-repeat;
+   background-position: top;
+   height:300px;
+   width: 100%;
+ }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+    </style>
+<p>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="https://i0.wp.com/mindfulmermaid.com/wp-content/uploads/2018/04/37431203542_39dd91053f_o-1.jpg?resize=1080%2C675&ssl=1" style="width:85%">
+        <div class="text">Zermatt, Switzerland</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="https://www.italyguides.it/images/gridfolio/sangimignano/sangimignano.01.jpg" style="width:85%">
+        <div class="text">San Gimignano, Italy</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="https://twistedsifter.files.wordpress.com/2011/08/plitvice-lakes-national-park.jpg?w=800&h=533" style="width:60%">
+        <div class="text">Plitvice Lakes, Croatia</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="https://itinari.imgix.net/pages/images/original/4b4d053c-d7ce-4ad0-a9ba-3d46c2e94516-istock-467906724.jpg?fm=pjpg&ch=DPR&dpr=1&w=1200&fit=clip&trim=auto&auto=compress%2Cenhance&q=60" style="width:90%">
+        <div class="text">Granada, Spain</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="https://www.wendyperrin.com/wp-content/uploads/2018/03/Santorini-Greece-view-shutterstock_387166810.jpg" style="width:80%">
+        <div class="text">Santorini, Greece</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+</p>
+<style>
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Position the "back button" to the left */
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.
+  5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+</style>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+</html>
